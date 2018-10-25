@@ -22,6 +22,7 @@ namespace TestWork.Model
             return groups;
         }
 
+
         public static List<Student> GetAllStudents()
         {
             List<Student> students = JsonConvert.DeserializeObject<List<Student>>(File.ReadAllText("Students.json"));
